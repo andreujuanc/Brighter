@@ -12,6 +12,7 @@ environment:
   Sql_TestsMasterConnectionString: (local)\SQL2016;Database=master;User ID=sa;Password=Password12!;Application Name=BrighterTests
   MySql_TestsBrighterConnectionString: Server=localhost;Uid=root;Pwd=Password12!;Database=BrighterTests
   MySql_TestsMasterConnectionString: Server=localhost;Uid=root;Pwd=Password12!
+  APPVEYOR_RDP_PASSWORD: Br1ghterc0mmand!
   
 pull_requests:
   do_not_increment_build_number: true
