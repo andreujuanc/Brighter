@@ -8,7 +8,7 @@ namespace Paramore.Brighter.Tests
     public class MySqlTestHelper
     {
         private string _tableName;
-        private readonly MySqlSettings _mysqlSettings;
+        private MySqlSettings _mysqlSettings;
 
         public MySqlTestHelper()
         {
