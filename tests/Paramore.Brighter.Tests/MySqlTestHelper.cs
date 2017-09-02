@@ -23,7 +23,6 @@ namespace Paramore.Brighter.Tests
 
        public void CreateDatabase()
         {
-            Console.WriteLine(_mysqlSettings.TestsMasterConnectionString);
             using (var connection = new MySqlConnection(_mysqlSettings.TestsMasterConnectionString))
             {
                 connection.Open();
