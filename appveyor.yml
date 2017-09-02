@@ -8,8 +8,8 @@ services:
   - mysql
 
 environment:
-  Sql__TestsBrighterConnectionString: (local)\SQL2016;Database=BrighterTests;User ID=sa;Password=Password12!;Application Name=BrighterTests
-  Sql__TestsMasterConnectionString: (local)\SQL2016;Database=master;User ID=sa;Password=Password12!;Application Name=BrighterTests
+  Sql__TestsBrighterConnectionString: .\SQL2016;Database=BrighterTests;User ID=sa;Password=Password12!;Application Name=BrighterTests
+  Sql__TestsMasterConnectionString: .\SQL2016;Database=master;User ID=sa;Password=Password12!;Application Name=BrighterTests
   MySql__TestsBrighterConnectionString: Server=localhost;Uid=root;Pwd=Password12!;Database=BrighterTests
   MySql__TestsMasterConnectionString: Server=localhost;Uid=root;Pwd=Password12!
   
